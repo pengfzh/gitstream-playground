@@ -1,0 +1,7 @@
+"""
+Common fields between the ES and DB Order.
+"""
+interface OrderInterface {
+    orderType: String
+    testOrder: Boolean
+}
